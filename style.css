@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    width: 400px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.container h1{
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.form input{
+    width: 100%;
+    height: 40px;
+    padding: 10px 20px;    
+    border-radius: 30px;
+    border: none;
+    outline: 1px solid rgb(60, 200, 255);
+    margin: 10px;
+}
+
+.form button{
+    width: 100%;
+    height: 40px;
+    margin: 10px ;
+    background-color: rgb(44, 172, 223);
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.form button:hover{
+    cursor: pointer;
+    background-color: rgb(45, 99, 248);
+}
+
